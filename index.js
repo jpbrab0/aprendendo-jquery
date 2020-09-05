@@ -1,4 +1,5 @@
 let contador = 0;
+// Contador
 $(".adicionar").click(() => {
   contador++;
   $("p").html(contador);
@@ -16,7 +17,7 @@ $(".remover").click(() => {
     $("p").css("color", "red");
   }
 });
-
+// Mostrar e esconder o paragrafo
 $('.mostrarP').click(() => {
     $('p').show(100)
 })
