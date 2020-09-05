@@ -1,4 +1,8 @@
 let contador = 0;
+// Quando a pagina termina de carregar
+$(document).ready(function () {
+  alert('Seja bem-vindo ao meu site de estudo sobre o Jquery!')    
+});
 // Contador
 $(".adicionar").click(() => {
   contador++;
@@ -24,6 +28,3 @@ $('.mostrarP').click(() => {
 $('.esconderP').click(() => {
     $('p').hide(100)
 })
-$(document).ready(function () {
-    alert('SEJA BEM VINDO A ESSA PALHAÇADA COM JQUERY')    
-});
